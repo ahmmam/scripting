@@ -1,0 +1,7 @@
+spec:
+  replicas: 5
+  template:
+    spec:
+      containers:
+      - name: demo
+        image: demo:2.0
