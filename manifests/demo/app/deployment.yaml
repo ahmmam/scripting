@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: registry.example.com/webapp:old
+        image: registry.example.com/webapp:new
       - name: sidecar
         image: busybox:1.36
 ---
@@ -36,4 +36,4 @@ spec:
     spec:
       containers:
       - name: web
-        image: registry.example.com/webapp:old
+        image: registry.example.com/webapp:new

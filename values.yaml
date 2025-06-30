@@ -1,0 +1,14 @@
+dev:
+  app_name: demo-dev
+  replicas: 1
+  image: demo:dev
+
+staging:
+  app_name: demo-staging
+  replicas: 2
+  image: demo:staging
+
+prod:
+  app_name: demo
+  replicas: 3
+  image: demo:1.0
