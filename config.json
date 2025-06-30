@@ -1,0 +1,9 @@
+{
+	"serviceName": "demo",
+	"replicas": 2,
+	"image": "demo:1.0",
+	"ports": [
+		80,
+		443
+	]
+}
