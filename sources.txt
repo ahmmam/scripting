@@ -1,2 +1,2 @@
-devops_assets/backup_demo/html
-devops_assets/backup_demo/db
+backups/html
+backups/db
